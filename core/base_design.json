@@ -1,0 +1,15 @@
+{
+  "wing_area_m2": 0.8,
+  "drag_coefficient": 0.08,
+  "propeller_diameter_inch": 25,
+  "fuselage_design": "...",
+  "battery_mAh": 25000,
+  "motor_KV": 150,
+  "motor_type": "Brushless Outrunner",
+  "voltage": "12S (44.4V)",
+  "material": "...",
+  "estimated_weight_kg": 2.5,
+  "estimated_cost_usd": 3800,
+  "wind_tolerance": 18,
+  "navigation_method": "LiDAR SLAM ..."
+}

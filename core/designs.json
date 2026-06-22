@@ -1,0 +1,47 @@
+[
+    {
+        "wing_area_m2": 1.1116742937183401,
+        "drag_coefficient": 0.07161145868264812,
+        "propeller_diameter_inch": 23.08882411145031,
+        "fuselage_design": "...",
+        "battery_mAh": 36839,
+        "motor_KV": 158,
+        "motor_type": "Brushless Outrunner",
+        "voltage": "12S (44.4V)",
+        "material": "...",
+        "estimated_weight_kg": 9.2,
+        "estimated_cost_usd": 3800,
+        "wind_tolerance": 22.627462680444488,
+        "navigation_method": "LiDAR SLAM ..."
+    },
+    {
+        "wing_area_m2": 0.8427844155533517,
+        "drag_coefficient": 0.0706888759367493,
+        "propeller_diameter_inch": 37.268886053928775,
+        "fuselage_design": "...",
+        "battery_mAh": 35835,
+        "motor_KV": 171,
+        "motor_type": "Brushless Outrunner",
+        "voltage": "12S (44.4V)",
+        "material": "...",
+        "estimated_weight_kg": 9.23,
+        "estimated_cost_usd": 3800,
+        "wind_tolerance": 20.24119416826074,
+        "navigation_method": "LiDAR SLAM ..."
+    },
+    {
+        "wing_area_m2": 1.0274301087025923,
+        "drag_coefficient": 0.06419821189875291,
+        "propeller_diameter_inch": 17.22947777796117,
+        "fuselage_design": "...",
+        "battery_mAh": 37300,
+        "motor_KV": 139,
+        "motor_type": "Brushless Outrunner",
+        "voltage": "12S (44.4V)",
+        "material": "...",
+        "estimated_weight_kg": 9.6,
+        "estimated_cost_usd": 3800,
+        "wind_tolerance": 22.527616957112023,
+        "navigation_method": "LiDAR SLAM ..."
+    }
+]

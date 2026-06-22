@@ -1,0 +1,209 @@
+[
+    {
+        "rank": 1,
+        "design_specifications": {
+            "wing_area_m2": 1.1116742937183401,
+            "drag_coefficient": 0.07161145868264812,
+            "propeller_diameter_inch": 23.08882411145031,
+            "fuselage_design": "...",
+            "battery_mAh": 36839,
+            "motor_KV": 158,
+            "motor_type": "Brushless Outrunner",
+            "voltage": "12S (44.4V)",
+            "material": "...",
+            "estimated_weight_kg": 9.2,
+            "estimated_cost_usd": 3800,
+            "wind_tolerance": 22.627462680444488,
+            "navigation_method": "LiDAR SLAM ..."
+        },
+        "predicted_performance": {
+            "flight_time_hours": 4.0,
+            "energy_consumption": 1104.0,
+            "structural_stress": 44.12,
+            "control_stability": 1.51,
+            "estimated_cost_usd": 5523.9
+        },
+        "confidence_intervals": {
+            "flight_time": {
+                "lower": 3.6,
+                "upper": 4.4
+            },
+            "energy_consumption": {
+                "lower": 993.6,
+                "upper": 1214.4
+            },
+            "structural_stress": {
+                "lower": 39.71,
+                "upper": 48.53
+            },
+            "control_stability": {
+                "lower": 1.36,
+                "upper": 1.66
+            },
+            "cost": {
+                "lower": 4971.51,
+                "upper": 6076.29
+            }
+        },
+        "physics_constraints_passed": [
+            "Positive mass",
+            "Positive wing area",
+            "Reasonable drag coefficient",
+            "Battery capacity defined",
+            "Propeller size defined"
+        ],
+        "novelty_justification": {
+            "novelty_score": 100,
+            "reason": "Design combines optimized aerodynamics, propulsion, GPS-denied navigation, and urban delivery constraints."
+        },
+        "falsifiable_flight_test": "Fly 10 km with 5 kg payload in 15 m/s crosswind. If range is below 10 km or the drone cannot complete the mission, the design fails.",
+        "test_flight_protocol": [
+            "Pre-flight inspection",
+            "Battery health check",
+            "Hover test at 5m altitude",
+            "Crosswind stability test",
+            "Urban obstacle navigation test",
+            "5km delivery simulation",
+            "10km full mission validation",
+            "Emergency landing verification"
+        ]
+    },
+    {
+        "rank": 2,
+        "design_specifications": {
+            "wing_area_m2": 0.8427844155533517,
+            "drag_coefficient": 0.0706888759367493,
+            "propeller_diameter_inch": 37.268886053928775,
+            "fuselage_design": "...",
+            "battery_mAh": 35835,
+            "motor_KV": 171,
+            "motor_type": "Brushless Outrunner",
+            "voltage": "12S (44.4V)",
+            "material": "...",
+            "estimated_weight_kg": 9.23,
+            "estimated_cost_usd": 3800,
+            "wind_tolerance": 20.24119416826074,
+            "navigation_method": "LiDAR SLAM ..."
+        },
+        "predicted_performance": {
+            "flight_time_hours": 3.88,
+            "energy_consumption": 1107.6,
+            "structural_stress": 58.2,
+            "control_stability": 1.35,
+            "estimated_cost_usd": 5429.5
+        },
+        "confidence_intervals": {
+            "flight_time": {
+                "lower": 3.49,
+                "upper": 4.27
+            },
+            "energy_consumption": {
+                "lower": 996.84,
+                "upper": 1218.36
+            },
+            "structural_stress": {
+                "lower": 52.38,
+                "upper": 64.02
+            },
+            "control_stability": {
+                "lower": 1.21,
+                "upper": 1.48
+            },
+            "cost": {
+                "lower": 4886.55,
+                "upper": 5972.45
+            }
+        },
+        "physics_constraints_passed": [
+            "Positive mass",
+            "Positive wing area",
+            "Reasonable drag coefficient",
+            "Battery capacity defined",
+            "Propeller size defined"
+        ],
+        "novelty_justification": {
+            "novelty_score": 100,
+            "reason": "Design combines optimized aerodynamics, propulsion, GPS-denied navigation, and urban delivery constraints."
+        },
+        "falsifiable_flight_test": "Fly 10 km with 5 kg payload in 15 m/s crosswind. If range is below 10 km or the drone cannot complete the mission, the design fails.",
+        "test_flight_protocol": [
+            "Pre-flight inspection",
+            "Battery health check",
+            "Hover test at 5m altitude",
+            "Crosswind stability test",
+            "Urban obstacle navigation test",
+            "5km delivery simulation",
+            "10km full mission validation",
+            "Emergency landing verification"
+        ]
+    },
+    {
+        "rank": 3,
+        "design_specifications": {
+            "wing_area_m2": 1.0274301087025923,
+            "drag_coefficient": 0.06419821189875291,
+            "propeller_diameter_inch": 17.22947777796117,
+            "fuselage_design": "...",
+            "battery_mAh": 37300,
+            "motor_KV": 139,
+            "motor_type": "Brushless Outrunner",
+            "voltage": "12S (44.4V)",
+            "material": "...",
+            "estimated_weight_kg": 9.6,
+            "estimated_cost_usd": 3800,
+            "wind_tolerance": 22.527616957112023,
+            "navigation_method": "LiDAR SLAM ..."
+        },
+        "predicted_performance": {
+            "flight_time_hours": 3.89,
+            "energy_consumption": 1152.0,
+            "structural_stress": 47.74,
+            "control_stability": 1.5,
+            "estimated_cost_usd": 5650.0
+        },
+        "confidence_intervals": {
+            "flight_time": {
+                "lower": 3.5,
+                "upper": 4.27
+            },
+            "energy_consumption": {
+                "lower": 1036.8,
+                "upper": 1267.2
+            },
+            "structural_stress": {
+                "lower": 42.97,
+                "upper": 52.51
+            },
+            "control_stability": {
+                "lower": 1.35,
+                "upper": 1.65
+            },
+            "cost": {
+                "lower": 5085.0,
+                "upper": 6215.0
+            }
+        },
+        "physics_constraints_passed": [
+            "Positive mass",
+            "Positive wing area",
+            "Reasonable drag coefficient",
+            "Battery capacity defined",
+            "Propeller size defined"
+        ],
+        "novelty_justification": {
+            "novelty_score": 100,
+            "reason": "Design combines optimized aerodynamics, propulsion, GPS-denied navigation, and urban delivery constraints."
+        },
+        "falsifiable_flight_test": "Fly 10 km with 5 kg payload in 15 m/s crosswind. If range is below 10 km or the drone cannot complete the mission, the design fails.",
+        "test_flight_protocol": [
+            "Pre-flight inspection",
+            "Battery health check",
+            "Hover test at 5m altitude",
+            "Crosswind stability test",
+            "Urban obstacle navigation test",
+            "5km delivery simulation",
+            "10km full mission validation",
+            "Emergency landing verification"
+        ]
+    }
+]
