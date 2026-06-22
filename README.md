@@ -203,29 +203,6 @@ The project produces these files:
 * `designs.json`
 * `top_design_reports.json`
 * `output_report.pdf`
-
-## Submission notes
-
-Before pushing to GitHub:
-
-* Remove any hardcoded API keys
-* Add `.env` to `.gitignore`
-* Commit only the code and template files
-* Regenerate `requirements.txt` after installing final packages
-* Make sure the project runs from a clean clone
-
-## About `requirements.txt`
-
-You do not need to rewrite it manually unless the package list changed a lot.
-
-The safest way is to regenerate it after everything is installed:
-
-```bash
-pip freeze > requirements.txt
-```
-
-That way the file matches the final working environment.
-
 ## Final takeaway
 
 This project shows how a LangGraph-based multi-agent system can explore drone design space using engineering reasoning, physics, machine learning, and iterative refinement.
