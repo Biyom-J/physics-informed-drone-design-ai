@@ -138,23 +138,10 @@ drone_design_ai/
 │   ├── report_generator.py
 │   └── langgraph_workflow.py
 │
-├── tests/
-│   ├── test_agent_50.py
-│   ├── test_pipeline.py
-│   ├── test_report_generator.py
-│   └── test_active_learning.py
 │
-├── outputs/
-│   ├── base_design.json
-│   ├── ranked_designs.json
-│   ├── top_design_reports.json
-│   └── designs.json
-│
-├── run_drone_design.py
 ├── README.md
 ├── requirements.txt
-├── .gitignore
-└── output_report.pdf
+└── .gitignore
 ```
 
 ## How to run
